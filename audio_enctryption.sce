@@ -7,7 +7,7 @@ function y = chaotic_map_1d(x, r, map_type)
         end
 endfunction
 //getting_audio
-[z,y]=loadwave("Test.wav")
+[z,y]=loadwave("Test.wav") //add file to scilab working directory and mention the name alone
 iter_length=length(z)
 // Set parameters
 x0 = 0.5;       // Initial condition (range between 0 to 1)
